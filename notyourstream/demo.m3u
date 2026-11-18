@@ -1,0 +1,34 @@
+#EXTM3U
+# Playlist de démonstration NotYourStream, destinée aux équipes de vérification des stores.
+# Uniquement des contenus libres de droits ou publiés pour les tests de lecture :
+#  - films Blender Open Movie (licence Creative Commons BY, © Blender Foundation, blender.org)
+#  - flux de test HLS publics d'Apple, Akamai, Unified Streaming, Mux et Shaka Player
+#  - extraits de test-videos.co.uk (vidéos de test libres)
+# Vérifiée le 18 novembre 2026.
+
+#EXTINF:-1 group-title="Flux de test en direct",Akamai · direct de test
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 group-title="Flux de test en direct",Unified Streaming · direct de test
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 group-title="Flux de test HLS",Apple · Bip Bop (multi-débit)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 group-title="Flux de test HLS",Big Buck Bunny (HLS)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 group-title="Flux de test HLS",Tears of Steel (HLS, sous-titres)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 group-title="Flux de test HLS",Angel One (multi-pistes audio)
+https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8
+
+#EXTINF:-1 group-title="Films libres de droits",Tears of Steel (2012)
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+#EXTINF:-1 group-title="Films libres de droits",Elephants Dream (2006)
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
+#EXTINF:-1 group-title="Films libres de droits",Cosmos Laundromat (2015)
+https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
+
+#EXTINF:-1 group-title="Extraits de test",Extraits de test S01E01 Big Buck Bunny
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4
+#EXTINF:-1 group-title="Extraits de test",Extraits de test S01E02 Sintel
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_1MB.mp4
+#EXTINF:-1 group-title="Extraits de test",Extraits de test S01E03 Méduses
+https://test-videos.co.uk/vids/jellyfish/mp4/h264/720/Jellyfish_720_10s_1MB.mp4
